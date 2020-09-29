@@ -27,7 +27,7 @@ cmake can find the libraries. Alternatively, add all libraries and source to Vis
 mkdir build
 cmake ..
 make
-sudo cp dcm2hdf /usr/local/bin
+sudo ln -s /path/to/dcm2hdf /usr/local/bin
 ```
 
 ## Usage
